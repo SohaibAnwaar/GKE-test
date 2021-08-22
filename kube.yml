@@ -2,7 +2,7 @@ apiVersion: apps/v1
 
 kind: Deployment
 metadata:
-  name: GKE-test
+  name: gketest
   namespace: default
 spec:
   replicas: 2
@@ -15,7 +15,7 @@ spec:
         bb: web
     spec:
       containers:
-      - name: GKE-test
+      - name: gketest
         image: sohaibanwaar/gcpdockertesting
 ---
 apiVersion: v1
