@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gketest
-        image: sohaibanwaar/gcpdockertesting
+        image: sohaibanwaar/gcpdockertesting:tagname
 ---
 apiVersion: v1
 kind: Service
